@@ -1,0 +1,3 @@
+package kelyan.protocolloentrata;
+
+global java.lang.Number nprotEntrata;

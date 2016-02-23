@@ -1,0 +1,24 @@
+
+<form id="1327630570">
+<property name="name" value="Test-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="offer_n" type="InputTextInteger" id="1648247712">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;n (offer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_offer/n"/>
+<property name="outputBinding" value="out_offer/n"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="offer_dateOffer" type="InputDate" id="389906363">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;dateOffer (offer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_offer/dateOffer"/>
+<property name="outputBinding" value="out_offer/dateOffer"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="in_offer" name="#0000A0" type="dataModelerEntry" outId="out_offer" value="kelyan.offerte.OfferDataObj" id="offer"/>
+</form>

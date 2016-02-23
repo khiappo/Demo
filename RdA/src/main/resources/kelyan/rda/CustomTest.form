@@ -1,0 +1,46 @@
+
+<form id="1812034677">
+<property name="name" value="CustomTest.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;p&gt;$label{rda_projectAutorization}$field{rda_projectAutorization}&lt;/p&gt;
+
+&lt;p&gt;$label{rda_reasonAutorization}$field{rda_reasonAutorization}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;form action=&quot;&quot;&gt;
+&lt;fieldset&gt;&lt;legend&gt;Linguaggi conosciuti&lt;/legend&gt; HTML &lt;input name=&quot;linguaggio&quot; type=&quot;radio&quot; value=&quot;html&quot; /&gt; CSS &lt;input name=&quot;linguaggio&quot; type=&quot;radio&quot; value=&quot;css&quot; /&gt; JavaScript &lt;input name=&quot;linguaggio&quot; type=&quot;radio&quot; value=&quot;javascript&quot; /&gt;&lt;/fieldset&gt;
+&lt;/form&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+"/>
+<field position="0" name="rda_reasonAutorization" type="InputText" id="341772248">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reasonAutorization (rda)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="rda_in/reasonAutorization"/>
+<property name="outputBinding" value="rda_out/reasonAutorization"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="rda_projectAutorization" type="InputText" id="1247813886">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectAutorization (rda)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="rda_in/projectAutorization"/>
+<property name="outputBinding" value="rda_out/projectAutorization"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="rda_budgetAutorization" type="CheckBox" id="1046965722">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;budgetAutorization (rda)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="rda_in/budgetAutorization"/>
+<property name="outputBinding" value="rda_out/budgetAutorization"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="rda_in" name="#FF54A7" type="dataModelerEntry" outId="rda_out" value="kelyan.rda.rda" id="rda"/>
+</form>

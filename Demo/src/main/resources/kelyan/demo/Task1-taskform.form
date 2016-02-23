@@ -1,0 +1,40 @@
+
+<form id="73969531">
+<property name="name" value="Task1-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="My_DO_primo" type="InputText" id="1908550713">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;primo (My_DO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="myDO_in/primo"/>
+<property name="outputBinding" value="myDO_out/primo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="My_DO_secondo" type="InputTextInteger" id="22579190">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;secondo (My_DO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="myDO_in/secondo"/>
+<property name="outputBinding" value="myDO_out/secondo"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="My_DO_terzo" type="InputDate" id="860397548">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;terzo (My_DO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="myDO_in/terzo"/>
+<property name="outputBinding" value="myDO_out/terzo"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="my_string" type="InputText" id="1351486086">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;myString_in (my_string)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="myString_in"/>
+<property name="outputBinding" value="myString_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="myDO_in" name="#0000A0" type="dataModelerEntry" outId="myDO_out" value="kelyan.demo.DO_prova" id="My_DO"/>
+<dataHolder inputId="myString_in" name="#FF54A7" type="basicType" outId="myString_out" value="java.lang.String" id="my_string"/>
+</form>

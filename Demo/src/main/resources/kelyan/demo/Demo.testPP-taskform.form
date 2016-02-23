@@ -1,0 +1,35 @@
+
+<form id="434610636">
+<property name="name" value="Demo.testPP-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="mydo_d1" type="InputTextBigDecimal" id="2011732402">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;d1 (mydo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mydo/d1"/>
+<property name="fieldClass" value="java.math.BigDecimal"/>
+</field>
+<field position="1" name="mydo_f1" type="InputTextFloat" id="963705420">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;f1 (mydo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mydo/f1"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="2" name="mydo_i1" type="InputTextInteger" id="905109638">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;i1 (mydo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mydo/i1"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="mydo_s1" type="InputText" id="480640850">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;s1 (mydo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mydo/s1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="mydo" value="kelyan.demo.TestDO1" id="mydo"/>
+</form>

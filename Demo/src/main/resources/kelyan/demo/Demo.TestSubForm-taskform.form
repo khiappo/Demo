@@ -1,0 +1,36 @@
+
+<form id="1118853283">
+<property name="name" value="Demo.TestSubForm-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="My_DO_primo" type="InputText" id="1082818344">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;primo (My_DO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="My_DO/primo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="My_DO_secondo" type="InputTextInteger" id="1375694133">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;secondo (My_DO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="My_DO/secondo"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="My_DO_terzo" type="InputDate" id="777694118">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;terzo (My_DO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="My_DO/terzo"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="my_string" type="InputText" id="1915281196">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;my_string (my_string)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="my_string"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="My_DO" value="kelyan.demo.DO_prova" id="My_DO"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="my_string" value="java.lang.String" id="my_string"/>
+</form>
