@@ -56,6 +56,25 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+
+ [
+    "name" : "RestCustomWorkItemHandler",
+    "parameters" : [
+        "Url" : new StringDataType(),
+        "Authorization" : new StringDataType(),
+ 	"Token" : new StringDataType(),
+	"Method" : new StringDataType(),
+        "ContentType" : new StringDataType(),
+        "Content" : new StringDataType()
+    ],
+    "results" : [
+        "StatusResult" : new ObjectDataType(),
+        "BodyResult" : new ObjectDataType(),
+ 	
+    ],
+    "displayName" : "MyREST",
+    "icon" : "defaultservicenodeicon.png"
   ]
 
 ]

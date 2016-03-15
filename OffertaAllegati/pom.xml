@@ -4,8 +4,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Kelyan</groupId>
   <artifactId>OffertaAllegati</artifactId>
-  <version>1.23</version>
+  <version>1.65</version>
   <name>OffertaAllegati</name>
+  <dependencies>
+    <dependency>
+      <groupId>it.aedera.jbpm.workitemhandler</groupId>
+      <artifactId>myresthandler</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>

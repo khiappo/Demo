@@ -4,8 +4,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Kelyan</groupId>
   <artifactId>ProtocolloUscita</artifactId>
-  <version>1.8</version>
+  <version>1.9</version>
   <name>ProtocolloUscita</name>
+  <dependencies>
+    <dependency>
+      <groupId>it.aedera.jbpm.workitemhandler</groupId>
+      <artifactId>myresthandler</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
