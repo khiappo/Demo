@@ -16,7 +16,7 @@
 <property name="outputBinding" value="protEntrata/supporto"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="protEntrata_darrivo" type="InputText" id="595755476">
+<field position="2" name="protEntrata_darrivo" type="InputText" id="595755476">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Arrivoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -29,19 +29,21 @@
 <property name="outputBinding" value="protEntrata/darrivo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="protEntrata_soggetto" type="InputText" id="1542382352">
+<field position="3" name="offer_ragsocClient" type="InputText" id="1542382352">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Mittentequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value="ktable"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="= &quot;ktable;clientTable&quot;"/>
 <property name="outputBinding" value="protEntrata/soggetto"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="protEntrata_interlocutore" type="InputText" id="33362725">
+<field position="4" name="protEntrata_interlocutore" type="InputText" id="33362725">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interlocutorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -53,7 +55,7 @@
 <property name="outputBinding" value="protEntrata/interlocutore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="protEntrata_protMittente" type="InputText" id="1372221386">
+<field position="5" name="protEntrata_protMittente" type="InputText" id="1372221386">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Prot. Mittentequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -65,7 +67,7 @@
 <property name="outputBinding" value="protEntrata/protMittente"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="protEntrata_dprotMittente" type="InputText" id="1379672998">
+<field position="6" name="protEntrata_dprotMittente" type="InputText" id="1379672998">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;delquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -78,7 +80,7 @@
 <property name="outputBinding" value="protEntrata/dprotMittente"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="protEntrata_dataDoc" type="InputText" id="20501587">
+<field position="7" name="protEntrata_dataDoc" type="InputText" id="20501587">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data Documentoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -91,7 +93,7 @@
 <property name="outputBinding" value="protEntrata/dataDoc"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="protEntrata_oggetto" type="InputText" id="317504294">
+<field position="8" name="protEntrata_oggetto" type="InputText" id="317504294">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Oggettoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -104,7 +106,7 @@
 <property name="outputBinding" value="protEntrata/oggetto"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="protEntrata_annotazioni" type="InputText" id="294421490">
+<field position="9" name="protEntrata_annotazioni" type="InputText" id="294421490">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Annotazioniquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -117,7 +119,7 @@
 <property name="outputBinding" value="protEntrata/annotazioni"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="protEntrata_altriSoggetti" type="InputText" id="1239770750">
+<field position="10" name="protEntrata_altriSoggetti" type="InputText" id="1239770750">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Altri Mittentiquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -129,9 +131,9 @@
 <property name="outputBinding" value="protEntrata/altriSoggetti"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="protEntrata_listaDistribuzione" bag-type="kelyan.protocolloentrata.ListaDistribuzione" type="MultipleSubform" id="1764071742">
+<field position="11" name="protEntrata_listaDistribuzione" bag-type="kelyan.protocolloentrata.ListaDistribuzione" type="MultipleSubform" id="1764071742">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Lista di Distribuzionequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Lista di Distribuzionequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -149,6 +151,19 @@
 <property name="expanded" value="false"/>
 <property name="enableTableEnterData" value="false"/>
 <property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="1" name="protEntrata_tipologia" type="InputText" id="1245115147">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tipologiaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="rangeFormula" value="{,...;reclamo,Reclamo;richiesta,Richiesta Informazione;voltura,Voltura}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="protEntrata/tipologia"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="protEntrata" value="kelyan.protocolloentrata.ProtocolloDO" id="protEntrata"/>
 </form>
