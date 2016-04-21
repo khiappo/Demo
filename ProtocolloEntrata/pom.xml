@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Kelyan</groupId>
   <artifactId>ProtocolloEntrata</artifactId>
-  <version>1.65</version>
+  <version>1.68</version>
   <name>ProtocolloEntrata</name>
   <dependencies>
     <dependency>
