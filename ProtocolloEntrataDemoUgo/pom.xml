@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Kelyan</groupId>
   <artifactId>ProtocolloEntrataDemoUgo</artifactId>
-  <version>1.76</version>
+  <version>1.107</version>
   <name>ProtocolloEntrataDemoUgo</name>
   <dependencies>
     <dependency>

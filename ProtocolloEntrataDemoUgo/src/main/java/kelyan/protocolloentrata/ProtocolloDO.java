@@ -52,8 +52,11 @@ public class ProtocolloDO implements java.io.Serializable
    @org.kie.api.definition.type.Label("Tipologia")
    private java.lang.String tipologia;
 
-   @org.kie.api.definition.type.Label(value = "Visionato")
+   @org.kie.api.definition.type.Label("Visionato")
    private java.lang.String visionato;
+
+   @org.kie.api.definition.type.Label(value = "Tipo di protocollo")
+   private java.lang.String protType;
 
    public ProtocolloDO()
    {
@@ -210,6 +213,16 @@ public class ProtocolloDO implements java.io.Serializable
       this.visionato = visionato;
    }
 
+   public java.lang.String getProtType()
+   {
+      return this.protType;
+   }
+
+   public void setProtType(java.lang.String protType)
+   {
+      this.protType = protType;
+   }
+
    public ProtocolloDO(
          java.lang.String supporto,
          java.lang.String ndoc,
@@ -224,7 +237,8 @@ public class ProtocolloDO implements java.io.Serializable
          java.lang.String idKfiles,
          java.lang.String dprotMittente,
          java.util.List<kelyan.protocolloentrata.ListaDistribuzione> listaDistribuzione,
-         java.lang.String tipologia, java.lang.String visionato)
+         java.lang.String tipologia, java.lang.String visionato,
+         java.lang.String protType)
    {
       this.supporto = supporto;
       this.ndoc = ndoc;
@@ -241,6 +255,7 @@ public class ProtocolloDO implements java.io.Serializable
       this.listaDistribuzione = listaDistribuzione;
       this.tipologia = tipologia;
       this.visionato = visionato;
+      this.protType = protType;
    }
 
 }
