@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Kelyan</groupId>
   <artifactId>OffertaAllegati</artifactId>
-  <version>1.83</version>
+  <version>1.86</version>
   <name>OffertaAllegati</name>
   <dependencies>
     <dependency>
